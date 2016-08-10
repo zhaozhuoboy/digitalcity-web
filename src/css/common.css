@@ -1,0 +1,17 @@
+*{
+  margin:0;
+  padding:0;
+}
+html,body{
+  font-family: "微软雅黑";
+}
+.clearfix:before,.clearfix:after{
+  content: '';
+  display: block;
+}
+.clearfix:after{
+  clear:both;
+}
+.clearfix{
+  *zoom:1;
+}
