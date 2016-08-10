@@ -1,0 +1,39 @@
+@media screen and (min-width:320px) {
+  .teacher-card{
+    width: 100%;
+    background: #cecece;
+    text-align: center;
+    padding:30px 20px;
+    margin:10px auto;
+  }
+  .teacher-card img{
+    width:120px;
+    border-radius: 50%;
+  }
+  .teacher-card .teacher-name{
+    margin:10px auto;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .teacher-card .jieshao{
+    text-indent: 2em;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 12px;
+  }
+}
+@media screen and (min-width:600px){
+  .teacher-card{
+    width:49%;
+  }
+}
+@media screen and (min-width:800px){
+  .teacher-card{
+    width:32%;
+  }
+}
+@media screen and (min-width:1000px){
+  .teacher-card{
+    width:210px;
+  }
+}

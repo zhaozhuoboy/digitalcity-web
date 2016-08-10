@@ -1,3 +1,28 @@
-@media  {
+@media screen and (min-width:320px) {
+  .card{
+    width:100%;
+    font-family: "微软雅黑";
+    margin-top: 40px;
+  }
+  .card h3{
+    background:#e7210e;
+    color:#fff;
+    padding:14px 10px;
+    text-align: center;
+  }
+  .card p{
+    font-size: 16px;
+    line-height: 2em;
+    color:#282828;
+    padding:10px;
+  }
+  .card img{
+    width:100%;
 
+  }
+}
+@media screen and (min-width:768px){
+  .card{
+    width:44%;
+  }
 }

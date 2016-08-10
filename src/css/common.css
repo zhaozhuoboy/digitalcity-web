@@ -1,10 +1,12 @@
 *{
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
-html,body{
-  font-family: "微软雅黑";
+html,body,p,h1,h2,h3,h4,h5{
+  font-family: "微软雅黑" !important;
 }
+img{width: 100%;}
 .clearfix:before,.clearfix:after{
   content: '';
   display: block;
@@ -14,4 +16,10 @@ html,body{
 }
 .clearfix{
   *zoom:1;
+}
+
+.gray-line{
+  width:100%;
+  border-top:1px solid #c6c6c6;
+  margin:40px auto;
 }

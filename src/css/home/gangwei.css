@@ -1,0 +1,18 @@
+.txt-p{
+  font-family: "微软雅黑";
+  text-align: center;
+  font-size: 36px;
+  color:#333;
+}
+.txt-p span{
+  font-weight: 800;
+}
+.txt-2{
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 36px;
+  color:#f6001d;
+}
+.txt-2 span{
+  font-weight: bold;
+}

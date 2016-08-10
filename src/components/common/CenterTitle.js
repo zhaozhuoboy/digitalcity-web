@@ -4,7 +4,7 @@ class CenterTitle extends React.Component {
   render () {
     let styles={
       h2:{
-        fontSize:"44px",
+        fontSize:"40px",
         textAlign:"center",
         letterSpacing:"4px",
         fontFamily:"微软雅黑"
@@ -15,7 +15,7 @@ class CenterTitle extends React.Component {
       p:{
         textTransform: "uppercase",
         textAlign:"center",
-        width:"440px",
+        width:"40%",
         margin:"0 auto",
         fontSize:"16px",
         padding:"10px 0",
@@ -39,12 +39,12 @@ class CenterTitle extends React.Component {
   }
 }
 CenterTitle.defaultProps={
-  red1:"互联网+时代",
-  black1:"/不懂",
-  red2:"IT技术",
-  black2:"迟早被淘汰",
-  engred:"adfadsfasdfasdfasdfasdfsa",
-  engblack:"maydmdasdf adsfjdaskl;jg ad f "
+  red1:"",
+  black1:"",
+  red2:"",
+  black2:"",
+  engred:"",
+  engblack:""
 }
 CenterTitle.PropTypes={
   red1:React.PropTypes.string.isRequired,

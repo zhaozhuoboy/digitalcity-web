@@ -1,0 +1,30 @@
+.more-btn{
+  display: flex;
+  padding:10px 16px;
+  border-radius: 5px;
+  outline: none;
+  font-family: "微软雅黑";
+  color:#fff;
+  font-size: 18px;
+  background: #f6001d;
+  align-items: center;
+  transition: all 0.3s;
+  cursor:pointer;
+}
+.more-btn span{
+  display: inline-block;
+  width:12px;
+  height: 20px;
+  line-height: 38px;
+  margin-left: 6px;
+  transition: all 0.1s linear;
+  background: url(http://obmtlh6zk.bkt.clouddn.com/image/digitalcity/sanjiao_03.png)
+}
+.more-btn:hover{
+  text-decoration: none;
+  color:#fff;
+  box-shadow: 0 0 20px red;
+}
+.more-btn:hover span{
+  margin-left: 10px;
+}

@@ -1,0 +1,22 @@
+.content{
+  margin-top: 18px;
+  font-size: 18px;
+  padding-left: 30px;
+}
+.content span{
+  font-weight: bold;
+}
+@media screen and (min-width:320px) {
+  .teachers{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width:600px){
+  .teachers{
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+}
