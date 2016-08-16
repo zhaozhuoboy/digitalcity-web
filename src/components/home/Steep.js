@@ -3,6 +3,8 @@ import '../../css/home/steep.css';
 import MoreButton from '../common/MoreButton';
 import TeacherCard from '../common/TeacherCard';
 
+import ZuoPinCard from '../common/ZuoPinCard';
+
 class Steep extends React.Component {
   render () {
     let styles={
@@ -47,6 +49,54 @@ class Steep extends React.Component {
         <TeacherCard photo={teacherData[i].photo} name={teacherData[i].name} jieshao={teacherData[i].jieshao}/>
       )
     }
+    let zuopinData=[
+      {
+        zuopinImg:"http://obmtlh6zk.bkt.clouddn.com/zuopin1.jpg",
+        title:"PC网站项目",
+        titleBgColor:"#00a8ff"
+      },
+      {
+        zuopinImg:"http://obmtlh6zk.bkt.clouddn.com/zuopin2.jpg",
+        title:"手游项目",
+        titleBgColor:"#ffa200"
+      },
+      {
+        zuopinImg:"http://obmtlh6zk.bkt.clouddn.com/zuopin4.jpg",
+        title:"H5项目",
+        titleBgColor:"#7e7bb8"
+      },
+      {
+        zuopinImg:"http://obmtlh6zk.bkt.clouddn.com/zuopin3.jpg",
+        title:"电商项目",
+        titleBgColor:"#256329"
+      },
+      {
+        zuopinImg:"http://obmtlh6zk.bkt.clouddn.com/zuopin5.jpg",
+        title:"APP项目",
+        titleBgColor:"#aa915c"
+      },
+      {
+        zuopinImg:"http://obmtlh6zk.bkt.clouddn.com/zuopin6.jpg",
+        title:"iPad项目",
+        titleBgColor:"#6c7879"
+      },
+      {
+        zuopinImg:"http://obmtlh6zk.bkt.clouddn.com/zuopin7.jpg",
+        title:"WEB游戏项目",
+        titleBgColor:"#5daeb2"
+      },
+      {
+        zuopinImg:"http://obmtlh6zk.bkt.clouddn.com/zuopin8.jpg",
+        title:"医疗项目",
+        titleBgColor:"#c4beaa"
+      },
+    ]
+    let zuopinList=[];
+    for(let i =0;i<zuopinData.length;i++){
+      zuopinList.push(
+        <ZuoPinCard title={zuopinData[i].title} titleBgColor={zuopinData[i].titleBgColor} zuopinImg={zuopinData[i].zuopinImg}/>
+      )
+    }
     return(
       <div style={styles.root}>
         <div className="container">
@@ -58,7 +108,7 @@ class Steep extends React.Component {
           <MoreButton style={{width:"200px",margin:"40px auto"}} title="了解更多课程内容"/>
           <div className="gray-line"></div>
 
-
+          {/*谁来教*/}
           <img style={styles.img01} src="http://obmtlh6zk.bkt.clouddn.com/image/digitalcity/02-who-jiao_03.jpg"/>
           <div className="teachers">
             {teacherList}
@@ -66,10 +116,15 @@ class Steep extends React.Component {
           <MoreButton style={{width:"200px",margin:"40px auto"}} title="查看更多师资信息"/>
           <div className="gray-line"></div>
 
+          {/*作品*/}
           <img style={styles.img01} src="http://obmtlh6zk.bkt.clouddn.com/image/digitalcity/03-hwo-to-learn_03.jpg "/>
           <p className="content"><span>企业项目实战教学，学习＝工作，</span>课程内容根据企业招聘需求更新，毕业即可顺利进入工作状态</p>
 
+          <div className="container">
+              <div className="row">{zuopinList}</div>
+          </div>
 
+          <MoreButton style={{width:"270px",margin:"40px auto"}} title="点击申请免费在线试听课程"/>
 
         </div>
       </div>

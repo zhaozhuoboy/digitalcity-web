@@ -4,7 +4,7 @@ import MoreButton from '../common/MoreButton';
 
 class Xinzi extends React.Component {
   render () {
-    let styles={
+    var styles={
       root:{
         width:"100%",
         padding:"50px 0",
