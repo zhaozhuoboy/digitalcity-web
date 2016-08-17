@@ -9,8 +9,6 @@ class ZuoPinCard extends React.Component {
       },
       img:{
         display:"block",
-        maxWidth:"261px",
-        maxHeight:"262px"
       },
       h3:{
         textAlign:"center",

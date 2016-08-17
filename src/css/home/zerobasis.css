@@ -1,0 +1,40 @@
+@media screen and (min-width:320px) {
+  .xiangmubox{
+    width:90%;
+    margin:30px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .xiangmubox2{
+    width:90%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .xiangmubox .xiangmu{
+    margin: 20px 0;
+  }
+  .xiangmubox2 .xiangmu{
+    margin: 20px 0;
+  }
+}
+@media screen and (min-width:768px) {
+  .xiangmubox{
+    flex-direction: row;
+  }
+  .xiangmubox2{
+    flex-direction: row;
+  }
+  .xiangmubox .xiangmu{
+    width:363px;
+  }
+  .xiangmubox2 .xiangmu{
+    width:350px;
+  }
+  .xiangmubox .xiangmu:nth-child(2){
+    width:338px;
+    margin:20px;
+  }
+}
