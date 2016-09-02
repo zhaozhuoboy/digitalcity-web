@@ -19,6 +19,37 @@
   .xiangmubox2 .xiangmu{
     margin: 20px 0;
   }
+  .zhaopin-info{
+    margin-top: 40px;
+    padding:20px;
+    border-top: 10px solid #f6001d;
+    background-color: #f4f4f4;
+  }
+  .zhaopin-info table{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px 50px;
+  }
+
+  .zhaopin-info table tr{
+    width:90%;
+    height: 50px;
+    line-height: 50px;
+    margin:0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    border-bottom:1px solid rgba(0, 0, 0, 0.2);
+
+  }
+  .zhaopin-info table tr.header{
+    font-size: 18px;
+    color:#f6001d;
+    font-weight: 100;
+    display: table;
+  }
+
 }
 @media screen and (min-width:768px) {
   .xiangmubox{

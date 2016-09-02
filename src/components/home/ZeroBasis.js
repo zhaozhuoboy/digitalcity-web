@@ -38,7 +38,39 @@ class ZeroBasis extends React.Component {
         <div className="gray-line"></div>
         <p style={styles.p}><span style={styles.span}>就业保障：</span>就业顾问1对1就业指导，就业推荐，提供企业专属岗位业界最权威职业素养软实力训练，全面提高职业素养、
 面试技巧、沟通能力等。</p>
-
+        <div className="zhaopin-info">
+            <table>
+                <tr className="header">
+                    <td>公司名称</td>
+                    <td>职位</td>
+                    <td>薪资</td>
+                    <td>工作经验</td>
+                    <td>其他</td>
+                </tr>
+                <tr>
+                    <td>用友B2C研发部招聘</td>
+                    <td>UI设计师</td>
+                    <td>10K-20K</td>
+                    <td>3-5年</td>
+                    <td><a href="#">更多></a></td>
+                </tr>
+                <tr>
+                  <td>用友B2C研发部招聘</td>
+                  <td>UI设计师</td>
+                  <td>10K-20K</td>
+                  <td>3-5年</td>
+                  <td><a href="#">更多></a></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+            </table>
+        </div>
+        <MoreButton style={{width:"200px",margin:"40px auto"}} title="了解更多招聘信息"/>
 
 
       </div>
