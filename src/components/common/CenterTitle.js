@@ -30,7 +30,7 @@ class CenterTitle extends React.Component {
       }
     }
     return(
-      <div>
+      <div style={this.props.style}>
         <h2 style={styles.h2}><span style={styles.redword}>{this.props.red1}</span><span>{this.props.black1}</span><span style={styles.redword}>{this.props.red2}</span><span>{this.props.black2}</span></h2>
         <p style={styles.p}><span style={styles.redword}>{this.props.engred}</span>{this.props.engblack}</p>
         <div style={styles.line}></div>

@@ -6,6 +6,7 @@ import Xinzi from './home/Xinzi';
 import GangWei from './home/GangWei';
 import Steep from './home/Steep';
 import ZeroBasis from './home/ZeroBasis';
+import JiuyeStar from './home/JiuyeStar';
 
 class Home extends React.Component {
   render () {
@@ -18,6 +19,7 @@ class Home extends React.Component {
         <GangWei />
         <Steep />
         <ZeroBasis />
+        <JiuyeStar />
       </div>
     )
   }
