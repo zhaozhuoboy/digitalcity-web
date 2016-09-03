@@ -7,7 +7,8 @@ import GangWei from './home/GangWei';
 import Steep from './home/Steep';
 import ZeroBasis from './home/ZeroBasis';
 import JiuyeStar from './home/JiuyeStar';
-import SchoolDongTai from './home/SchoolDongTai'
+import SchoolDongTai from './home/SchoolDongTai';
+import Footer from './share/Footer';
 
 class Home extends React.Component {
   render () {
@@ -22,6 +23,7 @@ class Home extends React.Component {
         <ZeroBasis />
         <JiuyeStar />
         <SchoolDongTai />
+        <Footer />
       </div>
     )
   }
